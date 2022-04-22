@@ -190,7 +190,7 @@ a{
 
  .pizza{
 width: 175px;
-top: 150px;
+top: 175px;
 left: -345px;
 border: solid .5px black;
 position: absolute;
@@ -198,7 +198,7 @@ position: absolute;
 
 #pep{
 width: 145px;
-top: 150px;
+top: 175px;
 left: -175px;
 border: solid .5px black;
 position: absolute;
@@ -206,7 +206,7 @@ position: absolute;
 }
 #hawaiian{
     width: 170px;
-    top: 250px;
+    top: 300px;
     left: -345px;
     border: solid .5px black;
     position: absolute;
@@ -214,7 +214,7 @@ position: absolute;
 #supreme{
     height: 95.5px;
     width: 145px;
-    top: 250px;
+    top: 300px;
     left: -175px;
     border: solid .5px black;
     position: absolute;
@@ -224,7 +224,7 @@ position: absolute;
 #chickbacranch{
     height: 95.5px;
     width: 145px;
-    top: 345px;
+    top: 425px;
     left: -321px;
     border: solid .5px black;
     position: absolute;
@@ -233,7 +233,7 @@ position: absolute;
 #meatlover{
     height: 95.5px;
     width: 145px;
-    top: 345px;
+    top: 425px;
     left: -175px;
     border: solid .5px black;
     position: absolute;
@@ -364,9 +364,11 @@ footer{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.365);
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
+    z-index: -1;
 }
+/*--This is the best i could do with the footer so far. I think because of element positions being set to absolute is the reason why the footer isnt working with traditional code--*/
 
 
